@@ -1,0 +1,3 @@
+from Gvars import name
+print (name)
+from global variables import inventory
