@@ -1,6 +1,9 @@
+from Gvars import *
+def pick_name():
 import chapter2m8
 chapter2m8.pick_name()
 import random
+
 option = (1,5)
 user = random.randrange(1,5)
 user_guess = 0
