@@ -25,7 +25,6 @@ while user != user:
     print("This not a girl")
     print("Please guess again.")
 
-import random
 (n) = random.randrange(1,5)
 user = 0-5
 n =input(0+1)
