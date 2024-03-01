@@ -1,10 +1,10 @@
-from Gvars import*
+#from Gvars import*
 import random
-import turtle
+import tkinter as TK
 def pick_name():
 
-name = input("Choose who you want. 1. Cleo, 2. Stoney, 3. TT, 4. Frankie")
-    
+    name = input("Choose who you want. 1. Cleo, 2. Stoney, 3. TT, 4. Frankie")
+    num.turtle() == "Frankie", "Stoney", "TT","Cleo"
     
     while name not in ["1","2","3","4"]:
         print("This is not a option. Game Over")
@@ -20,13 +20,52 @@ name = input("Choose who you want. 1. Cleo, 2. Stoney, 3. TT, 4. Frankie")
         name = "Cleo"
     else:
         print("That is not a option. Please choose again.")
-    for num in names:
-        print (num) 
-    if name = "1"
-    Cleo = turtle.turle
+while num.turtle: ("Cleo")
+Cleo = turtle.turle
+def draw_(t, sz):
+    for i in range(4):
+        t.forward(sz)
+        t.left(90)
+
+        wn = turtle.Screen()
+
+        alex = turtle.Turtle()
+        alex.color("blue")
+
+for i in range(5):
+	draw_square(alex,40*i+0)
+	alex.penup()
+	alex.backward(20)
+	alex.right(90)
+	alex.forward(20)
+	alex.left(90)
+	alex.pendown()
+	
+wn.exitonclick()
+jim.setpos(0, -20)
+    
+jim.left(90)
+    
+    # draw body
+jim.color("black")
+jim.forward(60)
+    
+    # draw head
+jim.color("black")
+jim.forward(90)
+jim.circle(45)
+    
+    # move to position
+jim.penup()
+jim.setpos(20, -20) #Sets the position of the turtle
+jim.left(90)
+jim.pendown()
+    
+main()
                     #names.remove("Stoney")
                     #names.remove("Frankie")
                     #names.remove("Cleo")
                     #names.remove("TT")
                     #print("Game Over")
+
 
