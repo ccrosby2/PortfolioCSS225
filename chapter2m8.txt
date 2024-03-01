@@ -67,7 +67,7 @@ def get_anti_keytype():
 person1 = person(Cleo_option: "Smith and Wesson 669", 2012,"blue jumpsuits", "seethru masks", "We not going to the Agency to get your son","We can not go to a mall.We going to be seen.")
 person2 = person((TT_option: "I dont want to kill nobody", pink jumpsuits, "diamond masks", "I want to get my son", "I like malls")
 person3 = person((Stony_option: "I got a Smith and Wesson 4505, black jumpsuits, "wigs that cover us like masks", "Your son gone be ok unitl after we rob this bank","the mall better than blue/pink jumpsuits."
-person4 = person((Frankie_option "I got a 
+person4 = person((Frankie_option "I got a friend but no weapon", "no jumpsuit","I want to go get your son though TT","the mall too open for us right now," 
 
 print(person.get_inventory())
 print(person1.get_jumpsuits())
