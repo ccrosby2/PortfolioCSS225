@@ -1,3 +1,5 @@
+import chapter3m8
+chapter3m8.pick_name()
 tbl1=['bun,fries,drink']
 tbl2=['hotdog,salad,drink']
 tbl3[crab +' '+ bacon + ' ' + luiguine + '' + no_drink]
