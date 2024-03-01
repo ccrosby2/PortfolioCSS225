@@ -1,25 +1,19 @@
-from Gvars import *
 import random
-def pick_name():
-   
-    print("I am broke,and working for Luther!")
-    
-    
-    #iceThrow = random.randrange(name)
-    name = input("Choose who you want. 1. Cleo, 2. Stoney, 3. TT, 4. Frankie")
+name = input("Choose who you want. 1. Cleo, 2. Stoney, 3. TT, 4. Frankie")
     
     
     while name not in ["1","2","3","4"]:
         print("This is not a option. Game Over")
-        name = input("Choose who you want. 1. Cleo, 2. Stoney, 3. TT, 4. Frankie")
+        name = input("Choose who you want. 1. Cleo, 2. TT, 3. Stoney, 4. Frankie")
     
     if name == ("2"):
-        name = "Stoney"
+        name = "TT"
         print("Let's go to the agency and get my son so we can leave out the country.")
     elif name == "3":
-        name = ("TT")
+        name = ("Stoney")
         print("Let go to the hood and ask one of them men to give us some money.")
     elif name == "4":
+        name =("Frankie")
         print ("Let's go to the bank and get some more of the money from the cops.")
     elif name == "1":
         name = "Cleo"
