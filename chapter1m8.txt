@@ -1,19 +1,27 @@
 from Gvars import *
 import random
+print("I am broke,and working for Luther!")__
 
-iceThrow = random.randrange('names')
-names = self
-while names == 'icethrow':
-    player = print[input("Choose who you want. 1. Cleo, 2. Stoney, 3. TT, 4. Frankie")]
-if names == icethrow:
-    print("I am broke,and working for ")
+player= print(name)
 
+iceThrow = random.randrange(name)
+name = ("player = print[input("Choose who you want. 1. Cleo, 2. Stoney, 3. TT, 4. Frankie,)]")
+print (player)
 
-var = ("name", id) == name
+if var == name:
+    icethrow = print [input("var")]
+    print("This is not a option. Game Over")
 
+iceThrow = random.randrange(name)
+name = ("Cleo, Stoney, Frankie,TT")
+
+while name == 'icethrow':
+    player = print[input("Choose who you want. 1. Cleo, 2. Stoney, 3. TT, 4. Frankie, 5. name)]
+    print(player)
 name = input("Choose who you want. 1. Cleo, 2. Stoney, 3. TT, 4. Frankie")
-if name == (names,name):
-    print("This is not a option")
+
+if name == 'names','var', (i,0<5)
+    print("This is not a option. Game Over")
 elif name == ("2"):
     name = "TT"
     print("Let's go to the agency and get my son so we can leave out the country.")
@@ -28,11 +36,8 @@ elif name == "1":
     print("Let's go rob Bank Federal Downtown.")
 else:
     print("That is not a option. Please choose again.")
-
-for name in random.range('names'):
-    print (name) == input("Choose who you want. 1. Cleo, 2. Stoney, 3. TT, 4. Frankie")
-                #if_var = ['Other', "name", id == (name)]
-                #name = ("Cleo, Stoney, Frankie,TT")
+for num in random.range(name):
+    print (name) 
                 #names.remove("Stoney")
                 #names.remove("Frankie")
                 #names.remove("Cleo")
