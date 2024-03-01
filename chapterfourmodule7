@@ -1,0 +1,10 @@
+tbl1=['bun,fries,drink']
+tbl2=['hotdog,salad,drink']
+option=tbl1,tbl2
+
+tbl1, tbl2 = [hamburger ,fries ,drink], [hotdog ,salad ,large, drink]
+args = {'tbl1': tbl1 ,"tbl2" :tbl2} 
+inp = input("Choose table") 
+def foo(var): 
+ 	print(var) 
+foo(args[inp])
