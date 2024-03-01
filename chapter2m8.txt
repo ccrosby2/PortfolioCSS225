@@ -69,8 +69,11 @@ person2 = person((TT_option: "I dont want to kill nobody", pink jumpsuits, "diam
 person3 = person((Stony_option: "I got a Smith and Wesson 4505, black jumpsuits, "wigs that cover us like masks", "Your son gone be ok unitl after we rob this bank","the mall better than blue/pink jumpsuits."
 person4 = person((Frankie_option "I got a 
 
-print(person1.get_color())
-print(person1.get_model())
-print(person2.get_color()) 
-print(person1.fullspecs())
+print(person.get_inventory())
+print(person1.get_jumpsuits())
+print(person1.get_masks())
+print(person2.get_jumpsuits()) 
+print(person2.get_masks())
+prnt(person3.get_inventory())
+print(person3.get_
 print(person2.fullspecs())
