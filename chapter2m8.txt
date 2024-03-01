@@ -1,17 +1,40 @@
+import pyautogui
+
 from Gvars import name
 print (name)
 from Gvars import inventory
+[("Stoney"), (Cleo), (Frankie), (TT)] = (0,5)
+args = [('Cleo': "0"),"Cleo" ,("Stoney" :'1'),"Stoney", (Frankie: 2,"Frankie" TT: 3,"TT")]
+option = input("Choose a person: "):
+def per(args):
+    print("You chose" , "args"")
+foo(args[inp])
 
+option_inventory=input("What option you want to take"):
 Cleo = "0"
 Stoney = "1"
 Frankie = "2"
 TT = "3"
-tbl0, tbl1, tbl2, tbl3 = (0,5)
-args = [('Cleo': tbl0),"Cleo" ,("Stoney" :tbl1),"Stoney", Frankie:tbl2,"Frankie" TT:tbl3,"TT")]
-option = input("Choose a person ")
-def per(args):
-    print("You chose" , "args"")
-foo(args[inp])
+
+if option_inventory == "2":
+print option_inventory (Cleo)
+
+print ("I want to get some jumpsuits, mask, and guns to rob the bank downtown")
+
+elif option_inventory == "1":
+	print option_inventory (Stoney)
+    print ("I want to get the outfits")
+
+elif option_inventory == 0:
+print option (Frankie)
+print("This is not a option. Game over")
+
+elif option_inventory == "3":
+print option(TT)
+print("I want to get my son from the agency before we leave.")
+
+elif option == (x,id),(import pyautogui:
+    print("This is not a option. Try again")
 
 class person
 def __init__ (self, inventory, outfits, masks, agency,mall):
@@ -24,10 +47,10 @@ def __init__ (self, inventory, outfits, masks, agency,mall):
 
 def get_inventory(self): 
 return 
-  Cleo = print ("I want to get some jumpsuits, mask, and guns to rob the bank downtown")
-  Frankie= print ("I want to get the outfits")
-  TT= print("I want to get my son from the agency before we leave."
-  Stoney= ("I want to get the shoes from the mall.")
+  self.Cleo = print ("I want to get some jumpsuits, mask, and guns to rob the bank downtown")
+  self.Frankie= print ("I want to get the outfits")
+  self.TT= print("I want to get my son from the agency before we leave."
+  self.Stoney= ("I want to get the shoes from the mall.")
 def get_masks(self):
  return print ("We do need this but I need a new car,Im not going to that Agency")
 def get_jumpsuits(self):
@@ -36,35 +59,18 @@ def get_outfits(self):
  return print("We need more.")
 def get_agnecy(self)
   return print("TT! They not giving you your child unless you go rob Bank Federal Downtown.")
+def anti_afk():
+    while running:
+	pyautogui.press(key_2[randint(0,2)])
+	return print("This is not a option.")
 
-person1 = person("Smith and Wesson 669", 2012,"blue jumpsuits", "seethru masks", "We not going to the Agency to get your son","We can not go to a mall.We going to be seen.")
+person1 = person(Cleo_option: "Smith and Wesson 669", 2012,"blue jumpsuits", "seethru masks", "We not going to the Agency to get your son","We can not go to a mall.We going to be seen.")
 person2 = person(("I dont want to kill nobody", pink jumpsuits, "diamond masks", "I want to get my son", "I like malls")
 person3 = person(("I got a Smith and Wesson 4505, black jumpsuits, "wigs that cover us like masks", "Your son gone be ok unitl after we rob this bank","the mall better than blue/pink jumpsuits."
-person4 = person(("
+person4 = person(("I got a 
 
 print(car1.get_color())
 print(car1.get_model())
 print(car2.get_color()) 
 print(car1.fullspecs())
 print(car2.fullspecs())
-
-option_inventory=input ("What option you want to take"):
-
-if option == "0":
-   print ("I want to get some jumpsuits, mask, and guns to rob the bank downtown")
-Cleo_
-elif option == "1":
-    print ("I want to get the outfits")
-
-elif option == "3":
-    TT= print("I want to get my son from the agency before we leave."
-
-elif option == lunch:
-    print("You choose option 3: Eat Lunch")
-    print("First I need to see what I have for leftover.")
-
-
-
-
-
-
