@@ -1,16 +1,20 @@
+from Gvars import *
+def pick_name():
 import pyautogui
 import chapter1m8
+from Gvars import inventory
 chapter1m8.pick_name()
 
 from Gvars import name
 print (name)
+
 from Gvars import inventory
 [("Stoney"), (Cleo), (Frankie), (TT)] = (0,5)
 args = [('Cleo': "0"),"Cleo" ,("Stoney" :'1'),"Stoney", (Frankie: 2,"Frankie" TT: 3,"TT")]
 option = input("Choose a person: "):
 def per(args):
     print("You chose" , "args"")
-foo(args[inp])
+    foo(args[inp])
 
 option_inventory=input("What option you want to take"):
 Cleo = "0"
@@ -19,23 +23,18 @@ Frankie = "2"
 TT = "3"
 
 if option_inventory == "2":
-print option_inventory (Cleo)
-
 print ("I want to get some jumpsuits, mask, and guns to rob the bank downtown")
 
 elif option_inventory == "1":
-	print option_inventory (Stoney)
     print ("I want to get the outfits")
 
 elif option_inventory == 0:
-print option (Frankie)
-print("This is not a option. Game over")
+	print("This is not a option. Game over")
 
 elif option_inventory == "3":
-print option(TT)
 print("I want to get my son from the agency before we leave.")
 
-elif option == (x,id),(import pyautogui:
+elif option == (x,id)
     print("This is not a option. Try again")
 
 class person
