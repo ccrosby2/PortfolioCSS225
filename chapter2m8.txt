@@ -1,4 +1,6 @@
 import pyautogui
+import chapter1m8
+chapter1m8.pick_name()
 
 from Gvars import name
 print (name)
