@@ -1,3 +1,6 @@
+from Gvars import*
+import random
+def pick_name():
 import random
 name = input("Choose who you want. 1. Cleo, 2. Stoney, 3. TT, 4. Frankie")
     
