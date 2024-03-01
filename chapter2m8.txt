@@ -37,7 +37,7 @@ elif option == (x,id),(import pyautogui:
     print("This is not a option. Try again")
 
 class person
-def __init__ (self, inventory, outfits, masks, agency,mall):
+def __init__ (self, inventory, outfits, masks, agency,mall,anti_keytype):
 		self.gun = tbl0
 		self.jumpsuits = tbl0
 		self.masks= tbl0
@@ -59,7 +59,7 @@ def get_outfits(self):
  return print("We need more.")
 def get_agnecy(self)
   return print("TT! They not giving you your child unless you go rob Bank Federal Downtown.")
-def anti_afk():
+def get_anti_keytype():
     while running:
 	pyautogui.press(key_2[randint(0,2)])
 	return print("This is not a option.")
