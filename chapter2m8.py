@@ -1,6 +1,5 @@
 from Gvars import *
 def pick_name():
-import pyautogui
 import chapter1m8
 from Gvars import inventory
 chapter1m8.pick_name()
@@ -8,13 +7,44 @@ chapter1m8.pick_name()
 from Gvars import name
 print (name)
 
-from Gvars import inventory
-[("Stoney"), (Cleo), (Frankie), (TT)] = (0,5)
-args = [('Cleo': "0"),"Cleo" ,("Stoney" :'1'),"Stoney", (Frankie: 2,"Frankie" TT: 3,"TT")]
-option = input("Choose a person: "):
-def per(args):
-    print("You chose" , "args"")
-    foo(args[inp])
+#from Gvars import inventory
+
+args = 'Cleo', "0","Cleo" ,"Stoney" ,'1',"Stoney", "Frankie" '2',"Frankie" ,"TT", "3",'TT'
+option = ("Choose a person")
+#from Gvars import inventory
+
+args = 'Cleo', "0","Cleo" ,"Stoney" ,'1',"Stoney", "Frankie" '2',"Frankie" ,"TT", "3",'TT'
+
+num = ('1,2,3,4')
+name= "Cleo", "Stoney", "TT", "Frankie"
+option_inventory=input("What option you want to take")
+Cleo = "0"
+Stoney = "1"
+Frankie = "2"
+TT = "3"
+option=0
+while name not in ["1","2","3","4"]:
+    print("This is not a option. Game Over")
+name = input("Choose who you want. 1. Cleo, 2. Stoney, 3. TT, 4. Frankie")
+num = "Cleo", "Stoney", "TT", "Frankie"
+if option == "0":
+    print("Cleo says")
+    print ("I want to get some jumpsuits, mask, and guns to rob the bank downtown")
+
+elif option== "1":
+    print ("Stoney says")
+    print ("I want to get the outfits")
+
+elif option == "4":
+	print("This is not a option. Game over")
+
+elif option == "3":
+    print("TT says")
+    print("I want to get my son from the agency before we leave.")
+for num in names:
+    print (num)
+
+
 
 option_inventory=input("What option you want to take"):
 Cleo = "0"
