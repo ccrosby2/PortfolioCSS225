@@ -1,5 +1,4 @@
 from Gvars import *
-def pick_name():
 import chapter1m8
 from Gvars import inventory
 chapter1m8.pick_name()
