@@ -8,23 +8,24 @@ print (name)
 
 #from Gvars import inventory
 
-args = 'Cleo', "0","Cleo" ,"Stoney" ,'1',"Stoney", "Frankie" '2',"Frankie" ,"TT", "3",'TT'
-option = ("Choose a person")
-#from Gvars import inventory
+arrested_heisters.append(name)
 
-args = 'Cleo', "0","Cleo" ,"Stoney" ,'1',"Stoney", "Frankie" '2',"Frankie" ,"TT", "3",'TT'
+option = ("Choose a person")
+args = "inventory", "jumpsuit", "masks", "outfits", "agency", "mall"
 
 num = ('1,2,3,4')
 name= "Cleo", "Stoney", "TT", "Frankie"
-option_inventory=input("What option you want to take")
-Cleo = "0"
-Stoney = "1"
-Frankie = "2"
-TT = "3"
-option=0
-while name not in ["1","2","3","4"]:
+outfit = input("1. Jumpsuits, 2. masks, 3. outfits, 4. agency, 0.mall,5. inventory)
+jumpsuits= "0"
+masks = "1"
+outfits = "2"
+agency= "3"
+mall = "4"
+inventory="5"
+
+while name not in ["1","2","3","4","0"]:
     print("This is not a option. Game Over")
-name = input("Choose who you want. 1. Cleo, 2. Stoney, 3. TT, 4. Frankie")
+
 num = "Cleo", "Stoney", "TT", "Frankie"
 if option == "0":
     print("Cleo says")
@@ -42,8 +43,6 @@ elif option == "3":
     print("I want to get my son from the agency before we leave.")
 for num in names:
     print (num)
-
-
 
 option_inventory=input("What option you want to take"):
 Cleo = "0"
@@ -71,8 +70,8 @@ def __init__ (self, inventory,jumpsuits, outfits, masks, agency,mall,anti_keytyp
 		self.inventory = inventory
 		self.jumpsuits = jumpsuits
 		self.masks= masks
-		self.outfits = agency
-		self.agency = mall
+		self.outfits = outfits
+		self.agency =  agency
    		self.mall = mall
 		self.anti_keytype= anti_keytype
 
@@ -110,8 +109,10 @@ print(person2.get_masks())
 prnt(person3.get_inventory())
 print(person3.get_jumpsuits())
 print(person3.get_masks())
+
 print(person4)
 print(person1.fullperson())
 print(person2.fullperson())
 print(person3.fullperson())
 print(person4.fullperson())
+
