@@ -23,7 +23,7 @@ agency= "3"
 mall = "4"
 inventory="5"
 
-while name not in ["1","2","3","4","0"]:
+while name not in ["1","2","3","4","0","5"]:
     print("This is not a option. Game Over")
 
 num = "Cleo", "Stoney", "TT", "Frankie"
@@ -115,4 +115,12 @@ print(person1.fullperson())
 print(person2.fullperson())
 print(person3.fullperson())
 print(person4.fullperson())
+
+if option== input("1. Jumpsuits, 2. masks, 3. outfits, 4. agency, 0.mall,5. inventory)
+jumpsuits= "0"
+masks = "1"
+outfits = "2"
+agency= "3"
+mall = "4"
+inventory="5"
 
