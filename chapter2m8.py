@@ -12,9 +12,8 @@ arrested_heisters.append(name)
 
 option = ("Choose a person")
 args = "inventory", "jumpsuit", "masks", "outfits", "agency", "mall"
+num = "Cleo", "Stoney", "TT", "Frankie"
 
-num = ('1,2,3,4')
-name= "Cleo", "Stoney", "TT", "Frankie"
 outfit = input("1. Jumpsuits, 2. masks, 3. outfits, 4. agency, 0.mall,5. inventory)
 jumpsuits= "0"
 masks = "1"
@@ -25,8 +24,6 @@ inventory="5"
 
 while name not in ["1","2","3","4","0","5"]:
     print("This is not a option. Game Over")
-
-num = "Cleo", "Stoney", "TT", "Frankie"
 if option == "0":
     print("Cleo says")
     print ("I want to get some jumpsuits, mask, and guns to rob the bank downtown")
@@ -116,11 +113,25 @@ print(person2.fullperson())
 print(person3.fullperson())
 print(person4.fullperson())
 
-if option== input("1. Jumpsuits, 2. masks, 3. outfits, 4. agency, 0.mall,5. inventory)
+num= "cleo", "stoney, "tt", "frankie"
 jumpsuits= "0"
 masks = "1"
 outfits = "2"
 agency= "3"
 mall = "4"
 inventory="5"
+num2 = "6"
 
+if option== input("1. jumpsuits, 2. masks, 3. outfits, 4. agency, 0.mall,5. inventory,6.num)
+jumpsuits= "0"
+masks = "1"
+outfits = "2"
+agency= "3"
+mall = "4"
+inventory="5"
+num = "6"
+ elif option == num
+ print ("Cleo is getting us ready for our next heist")
+ elif option!= num2
+ print ("Game over")
+ 
