@@ -8,26 +8,25 @@ print (name)
 
 #from Gvars import inventory
 
-arrested_heisters.append(name)
+#arrested_heisters.append(name)
 
 option = ("Choose a person")
 args = "inventory", "jumpsuit", "masks", "outfits", "agency", "mall"
 num = "Cleo", "Stoney", "TT", "Frankie"
 
-outfit = input("1. jumpsuits, 2. masks, 3. outfits, 4. agency, 0.mall,5. inventory)
-jumpsuits= "0"
-masks = "1"
-outfits = "2"
-agency= "3"
-mall = "4"
-inventory="5"
+outfit = input("1. jumpsuits, 2. masks, 3. outfits, 4. agency, 0.mall,5. inventory")
+#jumpsuits= "0"
+#masks = "1"
+#outfits = "2"
+#agency= "3"
+#mall = "4"
+#inventory="5"
 
-while name not in ["1","2","3","4","0","5"]:
+while outfit not in ["1","2","3","4","0","5"]:
     print("This is not a option. Game Over")
 if option == "0":
     print("Cleo says")
     print ("I want to get some jumpsuits, mask, and guns to rob the bank downtown")
-
 elif option== "1":
     print ("Stoney says")
     print ("I want to get the outfits")
