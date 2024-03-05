@@ -6,25 +6,46 @@ import random
 
 option = (1,5)
 user = random.randrange(1,5)
-user_guess = 0
-Cleopatria_Lenchrich = "1"
+user_guess = "6"
+Cleopatria_Lenchrich = "0"
 Patrick_Owens ="2"
 Cameron_lens ="3"
 Max_House ="4"
 Lida_Williams="5"
-if option == 0:
+if option == 6:
     print("This is not a option. Game over")
-while user != user:
+elif option == [1,2,3,4,5]
+    print ("Lets conduct a investigation")
+
+user_guess = "1"
+Cleopatria_Lenchrich = "0"
+Patrick_Owens ="2"
+Cameron_lens ="3"
+Max_House ="4"
+Lida_Williams="5"
+
+while user != user_guess:
   user = int(input("Enter a number 0-5"))
-  if user == 0:
+  if user == 1:
     print("This is not a option. Game Over.")
-  elif user > user_guess:
+  elif user_guess(1) >= user:
     print("This is not the person who killed Luther!")
     print ("Please guess again.")
   elif user >=user_guess(3):
     print("This not a girl")
     print("Please guess again.")
+  elif user<= userguess(2,4,5)
+    print("These might be the girls that killed Luther.")
+elif user == userguess(0)
+    print("This is the person that Killed Luther.Do you know if this the person?")
 
+
+
+
+
+
+
+import random
 (n) = random.randrange(1,5)
 user = 0-5
 n =input(0+1)
@@ -34,7 +55,7 @@ Patrick_Owens= "2"
 Cameron_lens="3"
 Max_House= "4"
 Lida_Williams="5"
-
+lose= "0"
 "This is not a option. Game over"
 while user != user:
   user = int(input("Enter a number 0-5"))
