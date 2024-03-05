@@ -1,7 +1,7 @@
 from Gvars import *
 def pick_name():
     import random
-    name = input("Choose who you want. 1. Cleo, 2. Stoney, 3. TT, 4. Frankie")
+    name = input("Choose who you want. 1. Cleo, 2. TT, 3. Stoney, 4. Frankie")
     
     
     while name not in ["1","2","3","4"]:
