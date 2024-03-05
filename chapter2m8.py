@@ -14,7 +14,7 @@ option = ("Choose a person")
 args = "inventory", "jumpsuit", "masks", "outfits", "agency", "mall"
 num = "Cleo", "Stoney", "TT", "Frankie"
 
-outfit = input("1. Jumpsuits, 2. masks, 3. outfits, 4. agency, 0.mall,5. inventory)
+outfit = input("1. jumpsuits, 2. masks, 3. outfits, 4. agency, 0.mall,5. inventory)
 jumpsuits= "0"
 masks = "1"
 outfits = "2"
@@ -122,7 +122,8 @@ mall = "4"
 inventory="5"
 num2 = "6"
 
-if option== input("1. jumpsuits, 2. masks, 3. outfits, 4. agency, 0.mall,5. inventory,6.num)
+if option== input("1. jumpsuits, 2. masks, 3. outfits, 4. agency, 0.mall,5. inventory,6.num, 7. get_inventory)
+
 jumpsuits= "0"
 masks = "1"
 outfits = "2"
@@ -130,8 +131,12 @@ agency= "3"
 mall = "4"
 inventory="5"
 num = "6"
+get_inventory="7"
+
  elif option == num
  print ("Cleo is getting us ready for our next heist")
  elif option!= num2
  print ("Game over")
- 
+elif option= [7']
+ args [input(get_inventory)]
+ print("This is what the next heist clothes.")
