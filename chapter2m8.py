@@ -22,19 +22,14 @@ outfit = input("1. jumpsuits, 2. masks, 3. outfits, 4. agency, 0.mall,5. invento
 #mall = "4"
 #inventory="5"
 
-while outfit not in ["1","2","3","4","0","5"]:
+while outfit not in ["1","3","4","0","5"]:
     print("This is not a option. Game Over")
 if option == "0":
-    print("Cleo says")
-    print ("I want to get some jumpsuits, mask, and guns to rob the bank downtown")
+    print ("Cleo says" ,"I want to get some jumpsuits, mask, and guns to rob the bank downtown")
 elif option== "1":
-    print ("Stoney says")
-    print ("I want to get the outfits")
-elif option == "4":
-	print("This is not a option. Game over")
+    print ("Stoney says","I want to get the outfits")
 elif option == "3":
-    print("TT says")
-    print("I want to get my son from the agency before we leave.")
+    print("TT says","I want to get my son from the agency before we leave.")
 elif option =="5":
     if name == "Cleo":
         print ("Stoney,TT,and Frankie can get us a new ride")
