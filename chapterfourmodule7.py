@@ -1,27 +1,26 @@
-from Gvars import *
-def pick_name():
-import chapter3m8
 import random
 
-chapter3m8.pick_name()
-tbl1=['bun,fries,drink']
-tbl2=['hotdog,salad,drink']
-tbl3[crab +' '+ bacon + ' ' + luiguine + '' + no_drink]
-option = tbl1, 
-option_one = tbl2
-option_three = tbl3
+tbl1=bun
+tbl2=fries
+tbl3=drink
+tbl4=hotdog
+tbl5=salad w/no meat
+tbl6=large drink
+tbl7=crab
+tbl8=spaghetti
+tbl9=salad
+tbl10=soupw/chicken
+tbl11=small drink
+tbl12=luguine pasta w/desert 
 
-args = {'tbl1': option ,"tbl2" : option_one, tbl3:option_three} 
-inp = input("Choose dinner:") 
-def foo(var): 
- 	print(var) 
-foo(args[inp])
+hungry = {'tbl1': option ,"tbl2" : option_one, tbl3:option_three} 
+inp = int(input("Choose dinner:")) 
+ 	print(input) 
 
+print("Banker responses")
 while option(hungry):
-
     print(option)
     print("Bank manager says:   I am a vegan")
-
 if badfood(option_one):
     print("This restaurant is pretty good."
 else:
