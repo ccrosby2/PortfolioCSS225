@@ -1,4 +1,3 @@
-
 #from Gvars import*
 import random
 import turtle
@@ -23,33 +22,40 @@ else:
 print (name)
 alex = turtle.Turtle()
 wn = turtle.Screen()
-def draw_(t, sz):
-    for i in range(4):
-        t.forward(sz)
-        t.left(90)
-alex.color("black")
 	
 #wn.exitonclick()
 jim=turtle.Turtle()
-jim.setpos(0, -20)
-   
-jim.left(90)
-    
-    # draw body
+
+
+# draw head
 jim.color("black")
-jim.forward(60)
-jim.pendown()
-    
-    # draw head
-jim.color("black")
-jim.forward(90)
 jim.circle(45)
-    
-    # move to position
+
+# draw body
+jim.right(90)
+jim.forward(90)
+#jim.penup()
+
+#draw legs
+jim.right(45)
+jim.forward(60)
 jim.penup()
-jim.setpos(20, -20) #Sets the position of the turtle
-jim.left(90)
+jim.setpos(0,-90)
 jim.pendown()
+jim.left(90)
+jim.forward(60)
+
+#draw arms
+jim.penup()
+jim.setpos(0,-45)
+jim.left(180)
+jim.pendown()
+jim.forward(45)
+jim.penup()
+jim.setpos(0,-45)
+jim.right(90)
+jim.pendown()
+jim.forward(45)
     
 #main()
                     #names.remove("Stoney")
